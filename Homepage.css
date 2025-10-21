@@ -1,0 +1,45 @@
+
+.highlight {
+  color: blue;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  display: inline-flex;
+  position: relative;
+}
+
+/* Carousel styling */
+.carousel-caption {
+  text-align: left;
+  left: 10%;
+  right: 50%;
+  bottom: 25%;
+  position: absolute;
+  z-index: 20;        
+  color: red;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: contain;
+  width: 100%;     
+  margin-left: 500px ;    
+}
+
+
+.carousel-indicators [data-bs-target] {
+  background-color: #78c2ad;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #78c2ad;
+  border-radius: 50%;
+  background-size: 100% 100%; 
+}
